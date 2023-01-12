@@ -16,8 +16,12 @@ public class Test {
 		list.add(60);
 		list.add(20);
 		
-		System.out.println(list);
+//		System.out.println(list);
+		
+		for(int i:list)
+		{
+			System.out.println(i);
+		}
 		
 	}
-
 }
