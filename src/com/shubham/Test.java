@@ -2,6 +2,7 @@ package com.shubham;
 
 import java.util.List;
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Test {
 	
@@ -21,6 +22,14 @@ public class Test {
 		for(int i:list)
 		{
 			System.out.println(i);
+		}
+		
+		//iterator
+		Iterator<Integer> itr = list.iterator();
+		System.out.println("Using Iterator : ");
+		while(itr.hasNext())
+		{
+			System.out.print(" "+itr.next());
 		}
 		
 	}
